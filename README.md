@@ -5,11 +5,11 @@ A simple image Color Processor using Pure JavaScript and HTML Canvas
 ### To Initialize Image
 
     const image = new XImage(ImagePath);
-### To Get Image Base/Avarage Color
+### To Get Image Base/Average Color
 This function takes few seconds to return the image average Color ( Depending on your image size). Call this function inside an async function.
 
     const image = new XImage(ImagePath);
-    const AvgColors = await image.GetAvarageColor();
+    const AvgColors = await image.GetAverageColor();
     
     /* AvgColors =
     { 	rgb:{
