@@ -7,7 +7,7 @@ class XImage {
   constructor(imageURL) {
     this.ImageSrc = imageURL;
   }
-  GetAvarageColor() {
+  GetAverageColor() {
     var imageURL = this.ImageSrc;
     return new Promise((resolve) => {
       var blockSize = 3,
