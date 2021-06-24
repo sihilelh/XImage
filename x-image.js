@@ -83,7 +83,7 @@ class XImage {
         .join("");
     return hex;
   }
-  MountToCanvas(DOM = "") {
+  MountToCanvas(Dom = "") {
     var imageURL = this.ImageSrc;
     var canvas = document.querySelector(DOM),
       context = canvas.getContext && canvas.getContext("2d");
